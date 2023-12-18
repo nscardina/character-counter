@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counting Utility</title>
+
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/general.css" />
+    <link rel="stylesheet" href="./style/input-box.css" />
+  </head>
+  <body>
+    
+    <nav id="top-navbar">
+      <h1>Character Counter</h1>
+    </nav>
+
+    <header class="text-align-center">
+      Enter text in the box below.
+    </header>
+
+    <br>
+
+    <div>
+      <textarea id="input-box" autofocus></textarea>
+    </div>
+    
+
+    <div style="margin-top: 1rem; width: fit-content; margin-left: auto; margin-right: auto;">
+
+      <div style="display: inline-block; width: min-content">
+        Characters: <br>
+        Words: <br>
+        Paragraphs:
+      </div>
+
+      <span style="display: inline-block; width: min-content; text-align: right;">
+        <span id="character-output">0</span> <br>
+        <span id="words-output">0</span> <br>
+        <span id="paragraphs-output">0</span>
+      </span>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
